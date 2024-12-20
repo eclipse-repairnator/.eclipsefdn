@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-repairnator') {
+orgs.newOrg('technology.repairnator', 'eclipse-repairnator') {
   settings+: {
     description: "",
     name: "Eclipse Repairnator project",
